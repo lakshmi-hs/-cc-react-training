@@ -96,6 +96,13 @@ body
     -webkit-flex-direction: column;
     flex-direction: column;
   }
+  .row
+{
+  display: inline-block;
+    align-items: center;
+    justify-content: center;
+    float: left;
+  }
 }
 
 .footer {
@@ -115,10 +122,4 @@ body
     align-items: center;
     justify-content: center;
 }
-.row
-{
-  display: inline-block;
-    align-items: center;
-    justify-content: center;
-    float: left;
-  }
+
