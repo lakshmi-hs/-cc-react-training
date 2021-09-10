@@ -117,14 +117,8 @@ body
 }
 .row
 {
-  display: flex;
+  display: inline-block;
     align-items: center;
     justify-content: center;
     float: left;
-}
-
-.column.middle img
-{
-  width:100%;
-  
-}
+  }
