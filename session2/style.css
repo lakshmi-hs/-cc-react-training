@@ -146,9 +146,7 @@ body
 
 .wrapper-left {
      background-color: black;
-    padding: 8px;
     flex: 30%;
-    display: inline-grid;
     border-right: solid 1px #21050f;
     align-content: space-evenly;
     justify-content: center;
@@ -163,6 +161,7 @@ body
   background-color: black;
   padding: 20px;
   flex: 30%;
+  border-right: solid 1px #21050f;
 }
 
 /* Responsive layout - makes a one column-layout instead of a two-column layout */
