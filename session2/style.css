@@ -4,6 +4,7 @@ body
 	padding: 0px;
 	background-color: black;
 }
+
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -13,9 +14,11 @@ body
   margin: 5px 2px;
   border-radius: 50%;
 }
+
 .fa:hover {
     opacity: 0.7;
 }
+
 .fa-youtube {
   background: #bb0000;
   color: white;
@@ -26,8 +29,8 @@ body
 	background-color:#21050f;
 	padding: 20px;
 	color: white;
-	
 }
+
 .header img
 {
 	border-radius: 50px;
@@ -36,19 +39,21 @@ body
     float: left;
 }
 
-.navbar ul {
+.navbar ul 
+{
   list-style-type: none;
   overflow: hidden;
   background-color:#63555a;
   margin:0px;
-
 }
 
-.navbar li {
+.navbar li
+{
   float: left;
 }
 
-.navbar li a {
+.navbar li a 
+{
   display: block;
   color: white;
   text-align: center;
@@ -56,43 +61,13 @@ body
   text-decoration: none;
 }
 
-.navbar li a:hover {
+.navbar li a:hover
+{
   background-color: #111;
 }
 
-/*.row {
-  display: -webkit-flex;
-  display: flex;
-}
-
-.column {
-  padding: 10px;
-  width: 100%;
-  height:400px; 
-  background-color:black;
-  color: white;
-}
-
-/* Left and right column */
-/*.column.side
+.footer 
 {
-   -webkit-flex: 1;
-   -ms-flex: 1;
-   flex: 1;
-    background-color:#21050f;
-}
-
-/* Middle column */
-/*.column.middle 
-{
-  -webkit-flex: 2;
-  -ms-flex: 2;
-  flex: 2;
-}*/
-
-
-
-.footer {
 	position: fixed;
    left: 0;
    bottom: 0;
@@ -110,20 +85,12 @@ body
     justify-content: center;
 }
 
-/*@media (max-width: 600px) {
-  .row
-{
-  display: inline-flex;
-    align-items: center;
-    justify-content: center;
-  }
-}*/
-
 .wrapper-left,h2
 {
   color: white;
   text-align: center;
 }
+
 .wrapper-center,h2
 {
   color: white;
@@ -135,42 +102,50 @@ body
   color: white;
   text-align: center;
 }
-.flex-wrapper {
+
+.flex-wrapper
+{
     display: inline-flex;
     flex-wrap: nowrap;
     align-content: stretch;
     justify-content: space-around;
     flex-direction: row;
     padding-bottom: 40px;
-  }
+}
 
-.wrapper-left {
-     background-color: black;
-    flex: 30%;
-    border-right: solid 1px #21050f;
-    align-content: space-evenly;
-    justify-content: center;
-    }
+.wrapper-left 
+{
+  background-color: black;
+  flex: 30%;
+  border-right: solid 1px #21050f;
+  padding: 20px;
+}
 
-.wrapper-right {
+.wrapper-right 
+{
   background-color: black;
   padding: 20px;
   flex: 30%;
 }
-.wrapper-center {
+
+.wrapper-center 
+{
   background-color: black;
   padding: 20px;
   flex: 30%;
   border-right: solid 1px #21050f;
 }
 
-/* Responsive layout - makes a one column-layout instead of a two-column layout */
-@media (max-width: 800px) {
-  .wrapper-right, .wrapper-left,.wrapper-center {
+
+@media (max-width: 800px)
+ {
+  .wrapper-right, .wrapper-left,.wrapper-center 
+  {
     flex: 100%;
     align-items: center;
     justify-content: center;
   }
+  
   .flex-wrapper
   {
     display: inline-grid;
