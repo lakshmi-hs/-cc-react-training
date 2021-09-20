@@ -1,0 +1,43 @@
+body
+{
+    display:flex;
+}
+button
+{
+    margin: 10px;
+    background-color: azure;
+    border: 2px solid #063b84;
+    height: 50px;
+}
+
+.button 
+{
+    display: flex;
+    flex:15%;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px
+}
+
+.buttons,.result
+{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.result
+{
+    height: 80px;
+    align-items: center;
+    font-size: 50px;
+    background: black;
+    color: white;
+    display: flex;
+    flex:15%;
+}
+.button+.operator
+{
+    background-color: red;
+    color:white;
+}
